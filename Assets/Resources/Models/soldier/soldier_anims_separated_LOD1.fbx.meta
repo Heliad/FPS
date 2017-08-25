@@ -1,0 +1,216 @@
+fileFormatVersion: 2
+guid: 8bd0216b3a0ecc34882fd32521c50c20
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Bind_Head
+    100002: Bind_Hips
+    100004: Bind_LeftArm
+    100006: Bind_LeftFoot
+    100008: Bind_LeftForeArm
+    100010: Bind_LeftHand
+    100012: Bind_LeftHandIndex1
+    100014: Bind_LeftHandIndex2
+    100016: Bind_LeftHandIndex3
+    100018: Bind_LeftHandMiddle1
+    100020: Bind_LeftHandMiddle2
+    100022: Bind_LeftHandMiddle3
+    100024: Bind_LeftHandPinky1
+    100026: Bind_LeftHandPinky2
+    100028: Bind_LeftHandPinky3
+    100030: Bind_LeftHandRing1
+    100032: Bind_LeftHandRing2
+    100034: Bind_LeftHandRing3
+    100036: Bind_LeftHandThumb1
+    100038: Bind_LeftHandThumb2
+    100040: Bind_LeftHandThumb3
+    100042: Bind_LeftLeg
+    100044: Bind_LeftShoulder
+    100046: Bind_LeftToeBase
+    100048: Bind_LeftUpLeg
+    100050: Bind_Neck
+    100052: Bind_RightArm
+    100054: Bind_RightFoot
+    100056: Bind_RightForeArm
+    100058: Bind_RightHand
+    100060: Bind_RightHandIndex1
+    100062: Bind_RightHandIndex2
+    100064: Bind_RightHandIndex3
+    100066: Bind_RightHandMiddle1
+    100068: Bind_RightHandMiddle2
+    100070: Bind_RightHandMiddle3
+    100072: Bind_RightHandPinky1
+    100074: Bind_RightHandPinky2
+    100076: Bind_RightHandPinky3
+    100078: Bind_RightHandRing1
+    100080: Bind_RightHandRing2
+    100082: Bind_RightHandRing3
+    100084: Bind_RightHandThumb1
+    100086: Bind_RightHandThumb2
+    100088: Bind_RightHandThumb3
+    100090: Bind_RightLeg
+    100092: Bind_RightShoulder
+    100094: Bind_RightToeBase
+    100096: Bind_RightUpLeg
+    100098: Bind_Root
+    100100: Bind_Spine
+    100102: Bind_Spine1
+    100104: Bind_Spine2
+    100106: gun
+    100108: gun_LOD1
+    100110: LOD01
+    100112: soldier
+    100114: //RootNode
+    100116: soldier_LOD1
+    400000: Bind_Head
+    400002: Bind_Hips
+    400004: Bind_LeftArm
+    400006: Bind_LeftFoot
+    400008: Bind_LeftForeArm
+    400010: Bind_LeftHand
+    400012: Bind_LeftHandIndex1
+    400014: Bind_LeftHandIndex2
+    400016: Bind_LeftHandIndex3
+    400018: Bind_LeftHandMiddle1
+    400020: Bind_LeftHandMiddle2
+    400022: Bind_LeftHandMiddle3
+    400024: Bind_LeftHandPinky1
+    400026: Bind_LeftHandPinky2
+    400028: Bind_LeftHandPinky3
+    400030: Bind_LeftHandRing1
+    400032: Bind_LeftHandRing2
+    400034: Bind_LeftHandRing3
+    400036: Bind_LeftHandThumb1
+    400038: Bind_LeftHandThumb2
+    400040: Bind_LeftHandThumb3
+    400042: Bind_LeftLeg
+    400044: Bind_LeftShoulder
+    400046: Bind_LeftToeBase
+    400048: Bind_LeftUpLeg
+    400050: Bind_Neck
+    400052: Bind_RightArm
+    400054: Bind_RightFoot
+    400056: Bind_RightForeArm
+    400058: Bind_RightHand
+    400060: Bind_RightHandIndex1
+    400062: Bind_RightHandIndex2
+    400064: Bind_RightHandIndex3
+    400066: Bind_RightHandMiddle1
+    400068: Bind_RightHandMiddle2
+    400070: Bind_RightHandMiddle3
+    400072: Bind_RightHandPinky1
+    400074: Bind_RightHandPinky2
+    400076: Bind_RightHandPinky3
+    400078: Bind_RightHandRing1
+    400080: Bind_RightHandRing2
+    400082: Bind_RightHandRing3
+    400084: Bind_RightHandThumb1
+    400086: Bind_RightHandThumb2
+    400088: Bind_RightHandThumb3
+    400090: Bind_RightLeg
+    400092: Bind_RightShoulder
+    400094: Bind_RightToeBase
+    400096: Bind_RightUpLeg
+    400098: Bind_Root
+    400100: Bind_Spine
+    400102: Bind_Spine1
+    400104: Bind_Spine2
+    400106: gun
+    400108: gun_LOD1
+    400110: LOD01
+    400112: soldier
+    400114: //RootNode
+    400116: soldier_LOD1
+    4300000: gun
+    4300002: soldier
+    7400000: idleWgun
+    7400002: walk
+    7400004: walkAndLook
+    7400006: run
+    7400008: shooting
+    7400010: rapidShooting
+    7400012: runAndShooting
+    7400014: strafeRight
+    7400016: strafeLeft
+    7400018: backpaddle
+    7400020: jump
+    7400022: crouch
+    7400024: crouchWalk
+    7400026: reload
+    7400028: melee
+    7400030: death
+    7400032: revive
+    7400034: idleWithoutGun
+    11100000: //RootNode
+    13700000: gun
+    13700002: soldier
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.3
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

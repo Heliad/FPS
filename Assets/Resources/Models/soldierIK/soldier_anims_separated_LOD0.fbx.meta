@@ -1,0 +1,3511 @@
+fileFormatVersion: 2
+guid: fe75013cd2a60c94cbb6bb1c4ef6800f
+timeCreated: 1495931666
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Bind_Head
+    100002: Bind_Hips
+    100004: Bind_LeftArm
+    100006: Bind_LeftFoot
+    100008: Bind_LeftForeArm
+    100010: Bind_LeftHand
+    100012: Bind_LeftHandIndex1
+    100014: Bind_LeftHandIndex2
+    100016: Bind_LeftHandIndex3
+    100018: Bind_LeftHandMiddle1
+    100020: Bind_LeftHandMiddle2
+    100022: Bind_LeftHandMiddle3
+    100024: Bind_LeftHandPinky1
+    100026: Bind_LeftHandPinky2
+    100028: Bind_LeftHandPinky3
+    100030: Bind_LeftHandRing1
+    100032: Bind_LeftHandRing2
+    100034: Bind_LeftHandRing3
+    100036: Bind_LeftHandThumb1
+    100038: Bind_LeftHandThumb2
+    100040: Bind_LeftHandThumb3
+    100042: Bind_LeftLeg
+    100044: Bind_LeftShoulder
+    100046: Bind_LeftToeBase
+    100048: Bind_LeftUpLeg
+    100050: Bind_Neck
+    100052: Bind_RightArm
+    100054: Bind_RightFoot
+    100056: Bind_RightForeArm
+    100058: Bind_RightHand
+    100060: Bind_RightHandIndex1
+    100062: Bind_RightHandIndex2
+    100064: Bind_RightHandIndex3
+    100066: Bind_RightHandMiddle1
+    100068: Bind_RightHandMiddle2
+    100070: Bind_RightHandMiddle3
+    100072: Bind_RightHandPinky1
+    100074: Bind_RightHandPinky2
+    100076: Bind_RightHandPinky3
+    100078: Bind_RightHandRing1
+    100080: Bind_RightHandRing2
+    100082: Bind_RightHandRing3
+    100084: Bind_RightHandThumb1
+    100086: Bind_RightHandThumb2
+    100088: Bind_RightHandThumb3
+    100090: Bind_RightLeg
+    100092: Bind_RightShoulder
+    100094: Bind_RightToeBase
+    100096: Bind_RightUpLeg
+    100098: Bind_Root
+    100100: Bind_Spine
+    100102: Bind_Spine1
+    100104: Bind_Spine2
+    100106: gun
+    100108: gun_LOD0
+    100110: LOD00
+    100112: soldier
+    100114: //RootNode
+    100116: soldier_LOD0
+    400000: Bind_Head
+    400002: Bind_Hips
+    400004: Bind_LeftArm
+    400006: Bind_LeftFoot
+    400008: Bind_LeftForeArm
+    400010: Bind_LeftHand
+    400012: Bind_LeftHandIndex1
+    400014: Bind_LeftHandIndex2
+    400016: Bind_LeftHandIndex3
+    400018: Bind_LeftHandMiddle1
+    400020: Bind_LeftHandMiddle2
+    400022: Bind_LeftHandMiddle3
+    400024: Bind_LeftHandPinky1
+    400026: Bind_LeftHandPinky2
+    400028: Bind_LeftHandPinky3
+    400030: Bind_LeftHandRing1
+    400032: Bind_LeftHandRing2
+    400034: Bind_LeftHandRing3
+    400036: Bind_LeftHandThumb1
+    400038: Bind_LeftHandThumb2
+    400040: Bind_LeftHandThumb3
+    400042: Bind_LeftLeg
+    400044: Bind_LeftShoulder
+    400046: Bind_LeftToeBase
+    400048: Bind_LeftUpLeg
+    400050: Bind_Neck
+    400052: Bind_RightArm
+    400054: Bind_RightFoot
+    400056: Bind_RightForeArm
+    400058: Bind_RightHand
+    400060: Bind_RightHandIndex1
+    400062: Bind_RightHandIndex2
+    400064: Bind_RightHandIndex3
+    400066: Bind_RightHandMiddle1
+    400068: Bind_RightHandMiddle2
+    400070: Bind_RightHandMiddle3
+    400072: Bind_RightHandPinky1
+    400074: Bind_RightHandPinky2
+    400076: Bind_RightHandPinky3
+    400078: Bind_RightHandRing1
+    400080: Bind_RightHandRing2
+    400082: Bind_RightHandRing3
+    400084: Bind_RightHandThumb1
+    400086: Bind_RightHandThumb2
+    400088: Bind_RightHandThumb3
+    400090: Bind_RightLeg
+    400092: Bind_RightShoulder
+    400094: Bind_RightToeBase
+    400096: Bind_RightUpLeg
+    400098: Bind_Root
+    400100: Bind_Spine
+    400102: Bind_Spine1
+    400104: Bind_Spine2
+    400106: gun
+    400108: gun_LOD0
+    400110: LOD00
+    400112: soldier
+    400114: //RootNode
+    400116: soldier_LOD0
+    4300000: soldier
+    4300002: gun
+    7400000: idleWgun
+    7400002: walk
+    7400004: walkAndLook
+    7400006: run
+    7400008: shooting
+    7400010: rapidShooting
+    7400012: runAndShooting
+    7400014: strafeRight
+    7400016: strafeLeft
+    7400018: backpaddle
+    7400020: jump
+    7400022: crouch
+    7400024: crouchWalk
+    7400026: reload
+    7400028: melee
+    7400030: death
+    7400032: revive
+    7400034: idleWithoutGun
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: gun
+    13700002: soldier
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'walk' has import animation warnings that might
+      lower retargeting quality:\n\t'Bind_Hips' is inbetween humanoid transforms and
+      has rotation animation that will be discarded.\n\nClip 'walkAndLook' has import
+      animation warnings that might lower retargeting quality:\n\t'Bind_Hips' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'run' has import animation warnings that might lower retargeting quality:\n\t'Bind_Hips'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'runAndShooting' has import animation warnings that might lower retargeting
+      quality:\n\t'Bind_Hips' is inbetween humanoid transforms and has rotation animation
+      that will be discarded.\n\nClip 'strafeRight' has import animation warnings
+      that might lower retargeting quality:\n\t'Bind_Hips' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\nClip 'strafeLeft' has
+      import animation warnings that might lower retargeting quality:\n\t'Bind_Hips'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'backpaddle' has import animation warnings that might lower retargeting quality:\n\t'Bind_Hips'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'jump' has import animation warnings that might lower retargeting quality:\n\t'Bind_Hips'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'crouchWalk' has import animation warnings that might lower retargeting quality:\n\t'Bind_Hips'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'melee' has import animation warnings that might lower retargeting quality:\n\t'Bind_Hips'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'death' has import animation warnings that might lower retargeting quality:\n\t'Bind_Hips'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'revive' has import animation warnings that might lower retargeting quality:\n\t'Bind_Hips'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: idleWgun
+      takeName: idleWgun
+      firstFrame: 0
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bind_Root
+        weight: 1
+      - path: Bind_Root/Bind_Hips
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_LeftUpLeg
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_LeftUpLeg/Bind_LeftLeg
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_LeftUpLeg/Bind_LeftLeg/Bind_LeftFoot
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_LeftUpLeg/Bind_LeftLeg/Bind_LeftFoot/Bind_LeftToeBase
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_RightUpLeg
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_RightUpLeg/Bind_RightLeg
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_RightUpLeg/Bind_RightLeg/Bind_RightFoot
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_RightUpLeg/Bind_RightLeg/Bind_RightFoot/Bind_RightToeBase
+        weight: 1
+      - path: Bind_Root/Bind_Spine
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandIndex1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandIndex1/Bind_LeftHandIndex2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandIndex1/Bind_LeftHandIndex2/Bind_LeftHandIndex3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandMiddle1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandMiddle1/Bind_LeftHandMiddle2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandMiddle1/Bind_LeftHandMiddle2/Bind_LeftHandMiddle3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandPinky1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandPinky1/Bind_LeftHandPinky2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandPinky1/Bind_LeftHandPinky2/Bind_LeftHandPinky3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandRing1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandRing1/Bind_LeftHandRing2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandRing1/Bind_LeftHandRing2/Bind_LeftHandRing3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandThumb1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandThumb1/Bind_LeftHandThumb2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandThumb1/Bind_LeftHandThumb2/Bind_LeftHandThumb3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_Neck
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_Neck/Bind_Head
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandIndex1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandIndex1/Bind_RightHandIndex2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandIndex1/Bind_RightHandIndex2/Bind_RightHandIndex3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandMiddle1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandMiddle1/Bind_RightHandMiddle2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandMiddle1/Bind_RightHandMiddle2/Bind_RightHandMiddle3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandPinky1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandPinky1/Bind_RightHandPinky2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandPinky1/Bind_RightHandPinky2/Bind_RightHandPinky3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandRing1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandRing1/Bind_RightHandRing2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandRing1/Bind_RightHandRing2/Bind_RightHandRing3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandThumb1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandThumb1/Bind_RightHandThumb2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandThumb1/Bind_RightHandThumb2/Bind_RightHandThumb3
+        weight: 1
+      - path: gun
+        weight: 1
+      - path: LOD00
+        weight: 1
+      - path: LOD00/gun_LOD0
+        weight: 1
+      - path: LOD00/soldier_LOD0
+        weight: 1
+      - path: soldier
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: walk
+      takeName: walk
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bind_Root
+        weight: 1
+      - path: Bind_Root/Bind_Hips
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_LeftUpLeg
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_LeftUpLeg/Bind_LeftLeg
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_LeftUpLeg/Bind_LeftLeg/Bind_LeftFoot
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_LeftUpLeg/Bind_LeftLeg/Bind_LeftFoot/Bind_LeftToeBase
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_RightUpLeg
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_RightUpLeg/Bind_RightLeg
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_RightUpLeg/Bind_RightLeg/Bind_RightFoot
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_RightUpLeg/Bind_RightLeg/Bind_RightFoot/Bind_RightToeBase
+        weight: 1
+      - path: Bind_Root/Bind_Spine
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandIndex1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandIndex1/Bind_LeftHandIndex2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandIndex1/Bind_LeftHandIndex2/Bind_LeftHandIndex3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandMiddle1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandMiddle1/Bind_LeftHandMiddle2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandMiddle1/Bind_LeftHandMiddle2/Bind_LeftHandMiddle3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandPinky1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandPinky1/Bind_LeftHandPinky2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandPinky1/Bind_LeftHandPinky2/Bind_LeftHandPinky3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandRing1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandRing1/Bind_LeftHandRing2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandRing1/Bind_LeftHandRing2/Bind_LeftHandRing3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandThumb1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandThumb1/Bind_LeftHandThumb2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandThumb1/Bind_LeftHandThumb2/Bind_LeftHandThumb3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_Neck
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_Neck/Bind_Head
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandIndex1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandIndex1/Bind_RightHandIndex2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandIndex1/Bind_RightHandIndex2/Bind_RightHandIndex3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandMiddle1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandMiddle1/Bind_RightHandMiddle2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandMiddle1/Bind_RightHandMiddle2/Bind_RightHandMiddle3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandPinky1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandPinky1/Bind_RightHandPinky2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandPinky1/Bind_RightHandPinky2/Bind_RightHandPinky3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandRing1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandRing1/Bind_RightHandRing2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandRing1/Bind_RightHandRing2/Bind_RightHandRing3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandThumb1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandThumb1/Bind_RightHandThumb2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandThumb1/Bind_RightHandThumb2/Bind_RightHandThumb3
+        weight: 1
+      - path: gun
+        weight: 1
+      - path: LOD00
+        weight: 1
+      - path: LOD00/gun_LOD0
+        weight: 1
+      - path: LOD00/soldier_LOD0
+        weight: 1
+      - path: soldier
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: walkAndLook
+      takeName: walkAndLook
+      firstFrame: 0
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bind_Root
+        weight: 1
+      - path: Bind_Root/Bind_Hips
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_LeftUpLeg
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_LeftUpLeg/Bind_LeftLeg
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_LeftUpLeg/Bind_LeftLeg/Bind_LeftFoot
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_LeftUpLeg/Bind_LeftLeg/Bind_LeftFoot/Bind_LeftToeBase
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_RightUpLeg
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_RightUpLeg/Bind_RightLeg
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_RightUpLeg/Bind_RightLeg/Bind_RightFoot
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_RightUpLeg/Bind_RightLeg/Bind_RightFoot/Bind_RightToeBase
+        weight: 1
+      - path: Bind_Root/Bind_Spine
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandIndex1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandIndex1/Bind_LeftHandIndex2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandIndex1/Bind_LeftHandIndex2/Bind_LeftHandIndex3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandMiddle1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandMiddle1/Bind_LeftHandMiddle2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandMiddle1/Bind_LeftHandMiddle2/Bind_LeftHandMiddle3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandPinky1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandPinky1/Bind_LeftHandPinky2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandPinky1/Bind_LeftHandPinky2/Bind_LeftHandPinky3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandRing1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandRing1/Bind_LeftHandRing2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandRing1/Bind_LeftHandRing2/Bind_LeftHandRing3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandThumb1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandThumb1/Bind_LeftHandThumb2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandThumb1/Bind_LeftHandThumb2/Bind_LeftHandThumb3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_Neck
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_Neck/Bind_Head
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandIndex1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandIndex1/Bind_RightHandIndex2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandIndex1/Bind_RightHandIndex2/Bind_RightHandIndex3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandMiddle1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandMiddle1/Bind_RightHandMiddle2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandMiddle1/Bind_RightHandMiddle2/Bind_RightHandMiddle3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandPinky1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandPinky1/Bind_RightHandPinky2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandPinky1/Bind_RightHandPinky2/Bind_RightHandPinky3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandRing1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandRing1/Bind_RightHandRing2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandRing1/Bind_RightHandRing2/Bind_RightHandRing3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandThumb1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandThumb1/Bind_RightHandThumb2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandThumb1/Bind_RightHandThumb2/Bind_RightHandThumb3
+        weight: 1
+      - path: gun
+        weight: 1
+      - path: LOD00
+        weight: 1
+      - path: LOD00/gun_LOD0
+        weight: 1
+      - path: LOD00/soldier_LOD0
+        weight: 1
+      - path: soldier
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: run
+      takeName: run
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bind_Root
+        weight: 1
+      - path: Bind_Root/Bind_Hips
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_LeftUpLeg
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_LeftUpLeg/Bind_LeftLeg
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_LeftUpLeg/Bind_LeftLeg/Bind_LeftFoot
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_LeftUpLeg/Bind_LeftLeg/Bind_LeftFoot/Bind_LeftToeBase
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_RightUpLeg
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_RightUpLeg/Bind_RightLeg
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_RightUpLeg/Bind_RightLeg/Bind_RightFoot
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_RightUpLeg/Bind_RightLeg/Bind_RightFoot/Bind_RightToeBase
+        weight: 1
+      - path: Bind_Root/Bind_Spine
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandIndex1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandIndex1/Bind_LeftHandIndex2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandIndex1/Bind_LeftHandIndex2/Bind_LeftHandIndex3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandMiddle1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandMiddle1/Bind_LeftHandMiddle2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandMiddle1/Bind_LeftHandMiddle2/Bind_LeftHandMiddle3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandPinky1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandPinky1/Bind_LeftHandPinky2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandPinky1/Bind_LeftHandPinky2/Bind_LeftHandPinky3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandRing1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandRing1/Bind_LeftHandRing2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandRing1/Bind_LeftHandRing2/Bind_LeftHandRing3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandThumb1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandThumb1/Bind_LeftHandThumb2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandThumb1/Bind_LeftHandThumb2/Bind_LeftHandThumb3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_Neck
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_Neck/Bind_Head
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandIndex1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandIndex1/Bind_RightHandIndex2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandIndex1/Bind_RightHandIndex2/Bind_RightHandIndex3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandMiddle1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandMiddle1/Bind_RightHandMiddle2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandMiddle1/Bind_RightHandMiddle2/Bind_RightHandMiddle3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandPinky1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandPinky1/Bind_RightHandPinky2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandPinky1/Bind_RightHandPinky2/Bind_RightHandPinky3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandRing1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandRing1/Bind_RightHandRing2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandRing1/Bind_RightHandRing2/Bind_RightHandRing3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandThumb1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandThumb1/Bind_RightHandThumb2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandThumb1/Bind_RightHandThumb2/Bind_RightHandThumb3
+        weight: 1
+      - path: gun
+        weight: 1
+      - path: LOD00
+        weight: 1
+      - path: LOD00/gun_LOD0
+        weight: 1
+      - path: LOD00/soldier_LOD0
+        weight: 1
+      - path: soldier
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: shooting
+      takeName: shooting
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bind_Root
+        weight: 1
+      - path: Bind_Root/Bind_Hips
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_LeftUpLeg
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_LeftUpLeg/Bind_LeftLeg
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_LeftUpLeg/Bind_LeftLeg/Bind_LeftFoot
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_LeftUpLeg/Bind_LeftLeg/Bind_LeftFoot/Bind_LeftToeBase
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_RightUpLeg
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_RightUpLeg/Bind_RightLeg
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_RightUpLeg/Bind_RightLeg/Bind_RightFoot
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_RightUpLeg/Bind_RightLeg/Bind_RightFoot/Bind_RightToeBase
+        weight: 1
+      - path: Bind_Root/Bind_Spine
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandIndex1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandIndex1/Bind_LeftHandIndex2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandIndex1/Bind_LeftHandIndex2/Bind_LeftHandIndex3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandMiddle1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandMiddle1/Bind_LeftHandMiddle2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandMiddle1/Bind_LeftHandMiddle2/Bind_LeftHandMiddle3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandPinky1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandPinky1/Bind_LeftHandPinky2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandPinky1/Bind_LeftHandPinky2/Bind_LeftHandPinky3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandRing1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandRing1/Bind_LeftHandRing2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandRing1/Bind_LeftHandRing2/Bind_LeftHandRing3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandThumb1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandThumb1/Bind_LeftHandThumb2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandThumb1/Bind_LeftHandThumb2/Bind_LeftHandThumb3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_Neck
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_Neck/Bind_Head
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandIndex1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandIndex1/Bind_RightHandIndex2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandIndex1/Bind_RightHandIndex2/Bind_RightHandIndex3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandMiddle1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandMiddle1/Bind_RightHandMiddle2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandMiddle1/Bind_RightHandMiddle2/Bind_RightHandMiddle3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandPinky1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandPinky1/Bind_RightHandPinky2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandPinky1/Bind_RightHandPinky2/Bind_RightHandPinky3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandRing1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandRing1/Bind_RightHandRing2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandRing1/Bind_RightHandRing2/Bind_RightHandRing3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandThumb1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandThumb1/Bind_RightHandThumb2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandThumb1/Bind_RightHandThumb2/Bind_RightHandThumb3
+        weight: 1
+      - path: gun
+        weight: 1
+      - path: LOD00
+        weight: 1
+      - path: LOD00/gun_LOD0
+        weight: 1
+      - path: LOD00/soldier_LOD0
+        weight: 1
+      - path: soldier
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: rapidShooting
+      takeName: rapidShooting
+      firstFrame: 0
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bind_Root
+        weight: 1
+      - path: Bind_Root/Bind_Hips
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_LeftUpLeg
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_LeftUpLeg/Bind_LeftLeg
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_LeftUpLeg/Bind_LeftLeg/Bind_LeftFoot
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_LeftUpLeg/Bind_LeftLeg/Bind_LeftFoot/Bind_LeftToeBase
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_RightUpLeg
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_RightUpLeg/Bind_RightLeg
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_RightUpLeg/Bind_RightLeg/Bind_RightFoot
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_RightUpLeg/Bind_RightLeg/Bind_RightFoot/Bind_RightToeBase
+        weight: 1
+      - path: Bind_Root/Bind_Spine
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandIndex1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandIndex1/Bind_LeftHandIndex2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandIndex1/Bind_LeftHandIndex2/Bind_LeftHandIndex3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandMiddle1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandMiddle1/Bind_LeftHandMiddle2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandMiddle1/Bind_LeftHandMiddle2/Bind_LeftHandMiddle3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandPinky1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandPinky1/Bind_LeftHandPinky2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandPinky1/Bind_LeftHandPinky2/Bind_LeftHandPinky3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandRing1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandRing1/Bind_LeftHandRing2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandRing1/Bind_LeftHandRing2/Bind_LeftHandRing3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandThumb1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandThumb1/Bind_LeftHandThumb2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandThumb1/Bind_LeftHandThumb2/Bind_LeftHandThumb3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_Neck
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_Neck/Bind_Head
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandIndex1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandIndex1/Bind_RightHandIndex2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandIndex1/Bind_RightHandIndex2/Bind_RightHandIndex3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandMiddle1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandMiddle1/Bind_RightHandMiddle2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandMiddle1/Bind_RightHandMiddle2/Bind_RightHandMiddle3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandPinky1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandPinky1/Bind_RightHandPinky2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandPinky1/Bind_RightHandPinky2/Bind_RightHandPinky3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandRing1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandRing1/Bind_RightHandRing2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandRing1/Bind_RightHandRing2/Bind_RightHandRing3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandThumb1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandThumb1/Bind_RightHandThumb2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandThumb1/Bind_RightHandThumb2/Bind_RightHandThumb3
+        weight: 1
+      - path: gun
+        weight: 1
+      - path: LOD00
+        weight: 1
+      - path: LOD00/gun_LOD0
+        weight: 1
+      - path: LOD00/soldier_LOD0
+        weight: 1
+      - path: soldier
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: runAndShooting
+      takeName: runAndShooting
+      firstFrame: 0
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bind_Root
+        weight: 1
+      - path: Bind_Root/Bind_Hips
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_LeftUpLeg
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_LeftUpLeg/Bind_LeftLeg
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_LeftUpLeg/Bind_LeftLeg/Bind_LeftFoot
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_LeftUpLeg/Bind_LeftLeg/Bind_LeftFoot/Bind_LeftToeBase
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_RightUpLeg
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_RightUpLeg/Bind_RightLeg
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_RightUpLeg/Bind_RightLeg/Bind_RightFoot
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_RightUpLeg/Bind_RightLeg/Bind_RightFoot/Bind_RightToeBase
+        weight: 1
+      - path: Bind_Root/Bind_Spine
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandIndex1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandIndex1/Bind_LeftHandIndex2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandIndex1/Bind_LeftHandIndex2/Bind_LeftHandIndex3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandMiddle1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandMiddle1/Bind_LeftHandMiddle2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandMiddle1/Bind_LeftHandMiddle2/Bind_LeftHandMiddle3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandPinky1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandPinky1/Bind_LeftHandPinky2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandPinky1/Bind_LeftHandPinky2/Bind_LeftHandPinky3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandRing1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandRing1/Bind_LeftHandRing2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandRing1/Bind_LeftHandRing2/Bind_LeftHandRing3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandThumb1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandThumb1/Bind_LeftHandThumb2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandThumb1/Bind_LeftHandThumb2/Bind_LeftHandThumb3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_Neck
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_Neck/Bind_Head
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandIndex1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandIndex1/Bind_RightHandIndex2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandIndex1/Bind_RightHandIndex2/Bind_RightHandIndex3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandMiddle1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandMiddle1/Bind_RightHandMiddle2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandMiddle1/Bind_RightHandMiddle2/Bind_RightHandMiddle3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandPinky1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandPinky1/Bind_RightHandPinky2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandPinky1/Bind_RightHandPinky2/Bind_RightHandPinky3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandRing1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandRing1/Bind_RightHandRing2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandRing1/Bind_RightHandRing2/Bind_RightHandRing3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandThumb1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandThumb1/Bind_RightHandThumb2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandThumb1/Bind_RightHandThumb2/Bind_RightHandThumb3
+        weight: 1
+      - path: gun
+        weight: 1
+      - path: LOD00
+        weight: 1
+      - path: LOD00/gun_LOD0
+        weight: 1
+      - path: LOD00/soldier_LOD0
+        weight: 1
+      - path: soldier
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: strafeRight
+      takeName: strafeRight
+      firstFrame: 0
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bind_Root
+        weight: 1
+      - path: Bind_Root/Bind_Hips
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_LeftUpLeg
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_LeftUpLeg/Bind_LeftLeg
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_LeftUpLeg/Bind_LeftLeg/Bind_LeftFoot
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_LeftUpLeg/Bind_LeftLeg/Bind_LeftFoot/Bind_LeftToeBase
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_RightUpLeg
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_RightUpLeg/Bind_RightLeg
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_RightUpLeg/Bind_RightLeg/Bind_RightFoot
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_RightUpLeg/Bind_RightLeg/Bind_RightFoot/Bind_RightToeBase
+        weight: 1
+      - path: Bind_Root/Bind_Spine
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandIndex1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandIndex1/Bind_LeftHandIndex2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandIndex1/Bind_LeftHandIndex2/Bind_LeftHandIndex3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandMiddle1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandMiddle1/Bind_LeftHandMiddle2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandMiddle1/Bind_LeftHandMiddle2/Bind_LeftHandMiddle3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandPinky1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandPinky1/Bind_LeftHandPinky2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandPinky1/Bind_LeftHandPinky2/Bind_LeftHandPinky3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandRing1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandRing1/Bind_LeftHandRing2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandRing1/Bind_LeftHandRing2/Bind_LeftHandRing3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandThumb1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandThumb1/Bind_LeftHandThumb2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandThumb1/Bind_LeftHandThumb2/Bind_LeftHandThumb3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_Neck
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_Neck/Bind_Head
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandIndex1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandIndex1/Bind_RightHandIndex2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandIndex1/Bind_RightHandIndex2/Bind_RightHandIndex3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandMiddle1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandMiddle1/Bind_RightHandMiddle2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandMiddle1/Bind_RightHandMiddle2/Bind_RightHandMiddle3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandPinky1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandPinky1/Bind_RightHandPinky2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandPinky1/Bind_RightHandPinky2/Bind_RightHandPinky3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandRing1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandRing1/Bind_RightHandRing2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandRing1/Bind_RightHandRing2/Bind_RightHandRing3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandThumb1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandThumb1/Bind_RightHandThumb2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandThumb1/Bind_RightHandThumb2/Bind_RightHandThumb3
+        weight: 1
+      - path: gun
+        weight: 1
+      - path: LOD00
+        weight: 1
+      - path: LOD00/gun_LOD0
+        weight: 1
+      - path: LOD00/soldier_LOD0
+        weight: 1
+      - path: soldier
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: strafeLeft
+      takeName: strafeLeft
+      firstFrame: 0
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bind_Root
+        weight: 1
+      - path: Bind_Root/Bind_Hips
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_LeftUpLeg
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_LeftUpLeg/Bind_LeftLeg
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_LeftUpLeg/Bind_LeftLeg/Bind_LeftFoot
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_LeftUpLeg/Bind_LeftLeg/Bind_LeftFoot/Bind_LeftToeBase
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_RightUpLeg
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_RightUpLeg/Bind_RightLeg
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_RightUpLeg/Bind_RightLeg/Bind_RightFoot
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_RightUpLeg/Bind_RightLeg/Bind_RightFoot/Bind_RightToeBase
+        weight: 1
+      - path: Bind_Root/Bind_Spine
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandIndex1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandIndex1/Bind_LeftHandIndex2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandIndex1/Bind_LeftHandIndex2/Bind_LeftHandIndex3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandMiddle1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandMiddle1/Bind_LeftHandMiddle2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandMiddle1/Bind_LeftHandMiddle2/Bind_LeftHandMiddle3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandPinky1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandPinky1/Bind_LeftHandPinky2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandPinky1/Bind_LeftHandPinky2/Bind_LeftHandPinky3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandRing1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandRing1/Bind_LeftHandRing2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandRing1/Bind_LeftHandRing2/Bind_LeftHandRing3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandThumb1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandThumb1/Bind_LeftHandThumb2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandThumb1/Bind_LeftHandThumb2/Bind_LeftHandThumb3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_Neck
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_Neck/Bind_Head
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandIndex1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandIndex1/Bind_RightHandIndex2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandIndex1/Bind_RightHandIndex2/Bind_RightHandIndex3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandMiddle1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandMiddle1/Bind_RightHandMiddle2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandMiddle1/Bind_RightHandMiddle2/Bind_RightHandMiddle3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandPinky1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandPinky1/Bind_RightHandPinky2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandPinky1/Bind_RightHandPinky2/Bind_RightHandPinky3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandRing1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandRing1/Bind_RightHandRing2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandRing1/Bind_RightHandRing2/Bind_RightHandRing3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandThumb1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandThumb1/Bind_RightHandThumb2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandThumb1/Bind_RightHandThumb2/Bind_RightHandThumb3
+        weight: 1
+      - path: gun
+        weight: 1
+      - path: LOD00
+        weight: 1
+      - path: LOD00/gun_LOD0
+        weight: 1
+      - path: LOD00/soldier_LOD0
+        weight: 1
+      - path: soldier
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: backpaddle
+      takeName: backpaddle
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bind_Root
+        weight: 1
+      - path: Bind_Root/Bind_Hips
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_LeftUpLeg
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_LeftUpLeg/Bind_LeftLeg
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_LeftUpLeg/Bind_LeftLeg/Bind_LeftFoot
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_LeftUpLeg/Bind_LeftLeg/Bind_LeftFoot/Bind_LeftToeBase
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_RightUpLeg
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_RightUpLeg/Bind_RightLeg
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_RightUpLeg/Bind_RightLeg/Bind_RightFoot
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_RightUpLeg/Bind_RightLeg/Bind_RightFoot/Bind_RightToeBase
+        weight: 1
+      - path: Bind_Root/Bind_Spine
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandIndex1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandIndex1/Bind_LeftHandIndex2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandIndex1/Bind_LeftHandIndex2/Bind_LeftHandIndex3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandMiddle1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandMiddle1/Bind_LeftHandMiddle2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandMiddle1/Bind_LeftHandMiddle2/Bind_LeftHandMiddle3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandPinky1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandPinky1/Bind_LeftHandPinky2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandPinky1/Bind_LeftHandPinky2/Bind_LeftHandPinky3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandRing1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandRing1/Bind_LeftHandRing2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandRing1/Bind_LeftHandRing2/Bind_LeftHandRing3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandThumb1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandThumb1/Bind_LeftHandThumb2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandThumb1/Bind_LeftHandThumb2/Bind_LeftHandThumb3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_Neck
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_Neck/Bind_Head
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandIndex1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandIndex1/Bind_RightHandIndex2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandIndex1/Bind_RightHandIndex2/Bind_RightHandIndex3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandMiddle1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandMiddle1/Bind_RightHandMiddle2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandMiddle1/Bind_RightHandMiddle2/Bind_RightHandMiddle3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandPinky1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandPinky1/Bind_RightHandPinky2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandPinky1/Bind_RightHandPinky2/Bind_RightHandPinky3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandRing1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandRing1/Bind_RightHandRing2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandRing1/Bind_RightHandRing2/Bind_RightHandRing3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandThumb1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandThumb1/Bind_RightHandThumb2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandThumb1/Bind_RightHandThumb2/Bind_RightHandThumb3
+        weight: 1
+      - path: gun
+        weight: 1
+      - path: LOD00
+        weight: 1
+      - path: LOD00/gun_LOD0
+        weight: 1
+      - path: LOD00/soldier_LOD0
+        weight: 1
+      - path: soldier
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: jump
+      takeName: jump
+      firstFrame: 0
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bind_Root
+        weight: 1
+      - path: Bind_Root/Bind_Hips
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_LeftUpLeg
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_LeftUpLeg/Bind_LeftLeg
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_LeftUpLeg/Bind_LeftLeg/Bind_LeftFoot
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_LeftUpLeg/Bind_LeftLeg/Bind_LeftFoot/Bind_LeftToeBase
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_RightUpLeg
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_RightUpLeg/Bind_RightLeg
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_RightUpLeg/Bind_RightLeg/Bind_RightFoot
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_RightUpLeg/Bind_RightLeg/Bind_RightFoot/Bind_RightToeBase
+        weight: 1
+      - path: Bind_Root/Bind_Spine
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandIndex1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandIndex1/Bind_LeftHandIndex2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandIndex1/Bind_LeftHandIndex2/Bind_LeftHandIndex3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandMiddle1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandMiddle1/Bind_LeftHandMiddle2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandMiddle1/Bind_LeftHandMiddle2/Bind_LeftHandMiddle3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandPinky1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandPinky1/Bind_LeftHandPinky2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandPinky1/Bind_LeftHandPinky2/Bind_LeftHandPinky3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandRing1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandRing1/Bind_LeftHandRing2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandRing1/Bind_LeftHandRing2/Bind_LeftHandRing3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandThumb1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandThumb1/Bind_LeftHandThumb2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandThumb1/Bind_LeftHandThumb2/Bind_LeftHandThumb3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_Neck
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_Neck/Bind_Head
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandIndex1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandIndex1/Bind_RightHandIndex2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandIndex1/Bind_RightHandIndex2/Bind_RightHandIndex3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandMiddle1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandMiddle1/Bind_RightHandMiddle2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandMiddle1/Bind_RightHandMiddle2/Bind_RightHandMiddle3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandPinky1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandPinky1/Bind_RightHandPinky2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandPinky1/Bind_RightHandPinky2/Bind_RightHandPinky3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandRing1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandRing1/Bind_RightHandRing2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandRing1/Bind_RightHandRing2/Bind_RightHandRing3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandThumb1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandThumb1/Bind_RightHandThumb2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandThumb1/Bind_RightHandThumb2/Bind_RightHandThumb3
+        weight: 1
+      - path: gun
+        weight: 1
+      - path: LOD00
+        weight: 1
+      - path: LOD00/gun_LOD0
+        weight: 1
+      - path: LOD00/soldier_LOD0
+        weight: 1
+      - path: soldier
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: crouch
+      takeName: crouch
+      firstFrame: 0
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bind_Root
+        weight: 1
+      - path: Bind_Root/Bind_Hips
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_LeftUpLeg
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_LeftUpLeg/Bind_LeftLeg
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_LeftUpLeg/Bind_LeftLeg/Bind_LeftFoot
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_LeftUpLeg/Bind_LeftLeg/Bind_LeftFoot/Bind_LeftToeBase
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_RightUpLeg
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_RightUpLeg/Bind_RightLeg
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_RightUpLeg/Bind_RightLeg/Bind_RightFoot
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_RightUpLeg/Bind_RightLeg/Bind_RightFoot/Bind_RightToeBase
+        weight: 1
+      - path: Bind_Root/Bind_Spine
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandIndex1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandIndex1/Bind_LeftHandIndex2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandIndex1/Bind_LeftHandIndex2/Bind_LeftHandIndex3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandMiddle1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandMiddle1/Bind_LeftHandMiddle2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandMiddle1/Bind_LeftHandMiddle2/Bind_LeftHandMiddle3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandPinky1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandPinky1/Bind_LeftHandPinky2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandPinky1/Bind_LeftHandPinky2/Bind_LeftHandPinky3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandRing1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandRing1/Bind_LeftHandRing2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandRing1/Bind_LeftHandRing2/Bind_LeftHandRing3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandThumb1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandThumb1/Bind_LeftHandThumb2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandThumb1/Bind_LeftHandThumb2/Bind_LeftHandThumb3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_Neck
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_Neck/Bind_Head
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandIndex1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandIndex1/Bind_RightHandIndex2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandIndex1/Bind_RightHandIndex2/Bind_RightHandIndex3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandMiddle1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandMiddle1/Bind_RightHandMiddle2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandMiddle1/Bind_RightHandMiddle2/Bind_RightHandMiddle3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandPinky1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandPinky1/Bind_RightHandPinky2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandPinky1/Bind_RightHandPinky2/Bind_RightHandPinky3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandRing1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandRing1/Bind_RightHandRing2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandRing1/Bind_RightHandRing2/Bind_RightHandRing3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandThumb1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandThumb1/Bind_RightHandThumb2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandThumb1/Bind_RightHandThumb2/Bind_RightHandThumb3
+        weight: 1
+      - path: gun
+        weight: 1
+      - path: LOD00
+        weight: 1
+      - path: LOD00/gun_LOD0
+        weight: 1
+      - path: LOD00/soldier_LOD0
+        weight: 1
+      - path: soldier
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: crouchWalk
+      takeName: crouchWalk
+      firstFrame: 0
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bind_Root
+        weight: 1
+      - path: Bind_Root/Bind_Hips
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_LeftUpLeg
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_LeftUpLeg/Bind_LeftLeg
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_LeftUpLeg/Bind_LeftLeg/Bind_LeftFoot
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_LeftUpLeg/Bind_LeftLeg/Bind_LeftFoot/Bind_LeftToeBase
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_RightUpLeg
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_RightUpLeg/Bind_RightLeg
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_RightUpLeg/Bind_RightLeg/Bind_RightFoot
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_RightUpLeg/Bind_RightLeg/Bind_RightFoot/Bind_RightToeBase
+        weight: 1
+      - path: Bind_Root/Bind_Spine
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandIndex1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandIndex1/Bind_LeftHandIndex2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandIndex1/Bind_LeftHandIndex2/Bind_LeftHandIndex3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandMiddle1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandMiddle1/Bind_LeftHandMiddle2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandMiddle1/Bind_LeftHandMiddle2/Bind_LeftHandMiddle3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandPinky1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandPinky1/Bind_LeftHandPinky2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandPinky1/Bind_LeftHandPinky2/Bind_LeftHandPinky3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandRing1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandRing1/Bind_LeftHandRing2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandRing1/Bind_LeftHandRing2/Bind_LeftHandRing3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandThumb1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandThumb1/Bind_LeftHandThumb2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandThumb1/Bind_LeftHandThumb2/Bind_LeftHandThumb3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_Neck
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_Neck/Bind_Head
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandIndex1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandIndex1/Bind_RightHandIndex2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandIndex1/Bind_RightHandIndex2/Bind_RightHandIndex3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandMiddle1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandMiddle1/Bind_RightHandMiddle2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandMiddle1/Bind_RightHandMiddle2/Bind_RightHandMiddle3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandPinky1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandPinky1/Bind_RightHandPinky2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandPinky1/Bind_RightHandPinky2/Bind_RightHandPinky3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandRing1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandRing1/Bind_RightHandRing2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandRing1/Bind_RightHandRing2/Bind_RightHandRing3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandThumb1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandThumb1/Bind_RightHandThumb2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandThumb1/Bind_RightHandThumb2/Bind_RightHandThumb3
+        weight: 1
+      - path: gun
+        weight: 1
+      - path: LOD00
+        weight: 1
+      - path: LOD00/gun_LOD0
+        weight: 1
+      - path: LOD00/soldier_LOD0
+        weight: 1
+      - path: soldier
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: reload
+      takeName: reload
+      firstFrame: 0
+      lastFrame: 55
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bind_Root
+        weight: 1
+      - path: Bind_Root/Bind_Hips
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_LeftUpLeg
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_LeftUpLeg/Bind_LeftLeg
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_LeftUpLeg/Bind_LeftLeg/Bind_LeftFoot
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_LeftUpLeg/Bind_LeftLeg/Bind_LeftFoot/Bind_LeftToeBase
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_RightUpLeg
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_RightUpLeg/Bind_RightLeg
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_RightUpLeg/Bind_RightLeg/Bind_RightFoot
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_RightUpLeg/Bind_RightLeg/Bind_RightFoot/Bind_RightToeBase
+        weight: 1
+      - path: Bind_Root/Bind_Spine
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandIndex1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandIndex1/Bind_LeftHandIndex2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandIndex1/Bind_LeftHandIndex2/Bind_LeftHandIndex3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandMiddle1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandMiddle1/Bind_LeftHandMiddle2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandMiddle1/Bind_LeftHandMiddle2/Bind_LeftHandMiddle3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandPinky1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandPinky1/Bind_LeftHandPinky2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandPinky1/Bind_LeftHandPinky2/Bind_LeftHandPinky3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandRing1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandRing1/Bind_LeftHandRing2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandRing1/Bind_LeftHandRing2/Bind_LeftHandRing3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandThumb1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandThumb1/Bind_LeftHandThumb2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandThumb1/Bind_LeftHandThumb2/Bind_LeftHandThumb3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_Neck
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_Neck/Bind_Head
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandIndex1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandIndex1/Bind_RightHandIndex2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandIndex1/Bind_RightHandIndex2/Bind_RightHandIndex3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandMiddle1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandMiddle1/Bind_RightHandMiddle2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandMiddle1/Bind_RightHandMiddle2/Bind_RightHandMiddle3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandPinky1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandPinky1/Bind_RightHandPinky2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandPinky1/Bind_RightHandPinky2/Bind_RightHandPinky3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandRing1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandRing1/Bind_RightHandRing2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandRing1/Bind_RightHandRing2/Bind_RightHandRing3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandThumb1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandThumb1/Bind_RightHandThumb2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandThumb1/Bind_RightHandThumb2/Bind_RightHandThumb3
+        weight: 1
+      - path: gun
+        weight: 1
+      - path: LOD00
+        weight: 1
+      - path: LOD00/gun_LOD0
+        weight: 1
+      - path: LOD00/soldier_LOD0
+        weight: 1
+      - path: soldier
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: melee
+      takeName: melee
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bind_Root
+        weight: 1
+      - path: Bind_Root/Bind_Hips
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_LeftUpLeg
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_LeftUpLeg/Bind_LeftLeg
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_LeftUpLeg/Bind_LeftLeg/Bind_LeftFoot
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_LeftUpLeg/Bind_LeftLeg/Bind_LeftFoot/Bind_LeftToeBase
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_RightUpLeg
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_RightUpLeg/Bind_RightLeg
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_RightUpLeg/Bind_RightLeg/Bind_RightFoot
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_RightUpLeg/Bind_RightLeg/Bind_RightFoot/Bind_RightToeBase
+        weight: 1
+      - path: Bind_Root/Bind_Spine
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandIndex1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandIndex1/Bind_LeftHandIndex2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandIndex1/Bind_LeftHandIndex2/Bind_LeftHandIndex3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandMiddle1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandMiddle1/Bind_LeftHandMiddle2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandMiddle1/Bind_LeftHandMiddle2/Bind_LeftHandMiddle3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandPinky1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandPinky1/Bind_LeftHandPinky2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandPinky1/Bind_LeftHandPinky2/Bind_LeftHandPinky3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandRing1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandRing1/Bind_LeftHandRing2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandRing1/Bind_LeftHandRing2/Bind_LeftHandRing3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandThumb1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandThumb1/Bind_LeftHandThumb2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandThumb1/Bind_LeftHandThumb2/Bind_LeftHandThumb3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_Neck
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_Neck/Bind_Head
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandIndex1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandIndex1/Bind_RightHandIndex2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandIndex1/Bind_RightHandIndex2/Bind_RightHandIndex3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandMiddle1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandMiddle1/Bind_RightHandMiddle2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandMiddle1/Bind_RightHandMiddle2/Bind_RightHandMiddle3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandPinky1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandPinky1/Bind_RightHandPinky2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandPinky1/Bind_RightHandPinky2/Bind_RightHandPinky3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandRing1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandRing1/Bind_RightHandRing2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandRing1/Bind_RightHandRing2/Bind_RightHandRing3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandThumb1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandThumb1/Bind_RightHandThumb2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandThumb1/Bind_RightHandThumb2/Bind_RightHandThumb3
+        weight: 1
+      - path: gun
+        weight: 1
+      - path: LOD00
+        weight: 1
+      - path: LOD00/gun_LOD0
+        weight: 1
+      - path: LOD00/soldier_LOD0
+        weight: 1
+      - path: soldier
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: death
+      takeName: death
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bind_Root
+        weight: 1
+      - path: Bind_Root/Bind_Hips
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_LeftUpLeg
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_LeftUpLeg/Bind_LeftLeg
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_LeftUpLeg/Bind_LeftLeg/Bind_LeftFoot
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_LeftUpLeg/Bind_LeftLeg/Bind_LeftFoot/Bind_LeftToeBase
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_RightUpLeg
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_RightUpLeg/Bind_RightLeg
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_RightUpLeg/Bind_RightLeg/Bind_RightFoot
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_RightUpLeg/Bind_RightLeg/Bind_RightFoot/Bind_RightToeBase
+        weight: 1
+      - path: Bind_Root/Bind_Spine
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandIndex1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandIndex1/Bind_LeftHandIndex2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandIndex1/Bind_LeftHandIndex2/Bind_LeftHandIndex3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandMiddle1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandMiddle1/Bind_LeftHandMiddle2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandMiddle1/Bind_LeftHandMiddle2/Bind_LeftHandMiddle3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandPinky1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandPinky1/Bind_LeftHandPinky2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandPinky1/Bind_LeftHandPinky2/Bind_LeftHandPinky3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandRing1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandRing1/Bind_LeftHandRing2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandRing1/Bind_LeftHandRing2/Bind_LeftHandRing3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandThumb1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandThumb1/Bind_LeftHandThumb2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandThumb1/Bind_LeftHandThumb2/Bind_LeftHandThumb3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_Neck
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_Neck/Bind_Head
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandIndex1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandIndex1/Bind_RightHandIndex2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandIndex1/Bind_RightHandIndex2/Bind_RightHandIndex3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandMiddle1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandMiddle1/Bind_RightHandMiddle2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandMiddle1/Bind_RightHandMiddle2/Bind_RightHandMiddle3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandPinky1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandPinky1/Bind_RightHandPinky2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandPinky1/Bind_RightHandPinky2/Bind_RightHandPinky3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandRing1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandRing1/Bind_RightHandRing2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandRing1/Bind_RightHandRing2/Bind_RightHandRing3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandThumb1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandThumb1/Bind_RightHandThumb2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandThumb1/Bind_RightHandThumb2/Bind_RightHandThumb3
+        weight: 1
+      - path: gun
+        weight: 1
+      - path: LOD00
+        weight: 1
+      - path: LOD00/gun_LOD0
+        weight: 1
+      - path: LOD00/soldier_LOD0
+        weight: 1
+      - path: soldier
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: revive
+      takeName: revive
+      firstFrame: 0
+      lastFrame: 71
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bind_Root
+        weight: 1
+      - path: Bind_Root/Bind_Hips
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_LeftUpLeg
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_LeftUpLeg/Bind_LeftLeg
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_LeftUpLeg/Bind_LeftLeg/Bind_LeftFoot
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_LeftUpLeg/Bind_LeftLeg/Bind_LeftFoot/Bind_LeftToeBase
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_RightUpLeg
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_RightUpLeg/Bind_RightLeg
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_RightUpLeg/Bind_RightLeg/Bind_RightFoot
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_RightUpLeg/Bind_RightLeg/Bind_RightFoot/Bind_RightToeBase
+        weight: 1
+      - path: Bind_Root/Bind_Spine
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandIndex1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandIndex1/Bind_LeftHandIndex2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandIndex1/Bind_LeftHandIndex2/Bind_LeftHandIndex3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandMiddle1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandMiddle1/Bind_LeftHandMiddle2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandMiddle1/Bind_LeftHandMiddle2/Bind_LeftHandMiddle3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandPinky1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandPinky1/Bind_LeftHandPinky2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandPinky1/Bind_LeftHandPinky2/Bind_LeftHandPinky3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandRing1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandRing1/Bind_LeftHandRing2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandRing1/Bind_LeftHandRing2/Bind_LeftHandRing3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandThumb1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandThumb1/Bind_LeftHandThumb2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandThumb1/Bind_LeftHandThumb2/Bind_LeftHandThumb3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_Neck
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_Neck/Bind_Head
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandIndex1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandIndex1/Bind_RightHandIndex2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandIndex1/Bind_RightHandIndex2/Bind_RightHandIndex3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandMiddle1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandMiddle1/Bind_RightHandMiddle2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandMiddle1/Bind_RightHandMiddle2/Bind_RightHandMiddle3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandPinky1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandPinky1/Bind_RightHandPinky2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandPinky1/Bind_RightHandPinky2/Bind_RightHandPinky3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandRing1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandRing1/Bind_RightHandRing2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandRing1/Bind_RightHandRing2/Bind_RightHandRing3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandThumb1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandThumb1/Bind_RightHandThumb2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandThumb1/Bind_RightHandThumb2/Bind_RightHandThumb3
+        weight: 1
+      - path: gun
+        weight: 1
+      - path: LOD00
+        weight: 1
+      - path: LOD00/gun_LOD0
+        weight: 1
+      - path: LOD00/soldier_LOD0
+        weight: 1
+      - path: soldier
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: idleWithoutGun
+      takeName: idleWithoutGun
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bind_Root
+        weight: 1
+      - path: Bind_Root/Bind_Hips
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_LeftUpLeg
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_LeftUpLeg/Bind_LeftLeg
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_LeftUpLeg/Bind_LeftLeg/Bind_LeftFoot
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_LeftUpLeg/Bind_LeftLeg/Bind_LeftFoot/Bind_LeftToeBase
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_RightUpLeg
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_RightUpLeg/Bind_RightLeg
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_RightUpLeg/Bind_RightLeg/Bind_RightFoot
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_RightUpLeg/Bind_RightLeg/Bind_RightFoot/Bind_RightToeBase
+        weight: 1
+      - path: Bind_Root/Bind_Spine
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandIndex1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandIndex1/Bind_LeftHandIndex2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandIndex1/Bind_LeftHandIndex2/Bind_LeftHandIndex3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandMiddle1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandMiddle1/Bind_LeftHandMiddle2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandMiddle1/Bind_LeftHandMiddle2/Bind_LeftHandMiddle3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandPinky1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandPinky1/Bind_LeftHandPinky2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandPinky1/Bind_LeftHandPinky2/Bind_LeftHandPinky3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandRing1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandRing1/Bind_LeftHandRing2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandRing1/Bind_LeftHandRing2/Bind_LeftHandRing3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandThumb1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandThumb1/Bind_LeftHandThumb2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandThumb1/Bind_LeftHandThumb2/Bind_LeftHandThumb3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_Neck
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_Neck/Bind_Head
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandIndex1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandIndex1/Bind_RightHandIndex2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandIndex1/Bind_RightHandIndex2/Bind_RightHandIndex3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandMiddle1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandMiddle1/Bind_RightHandMiddle2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandMiddle1/Bind_RightHandMiddle2/Bind_RightHandMiddle3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandPinky1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandPinky1/Bind_RightHandPinky2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandPinky1/Bind_RightHandPinky2/Bind_RightHandPinky3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandRing1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandRing1/Bind_RightHandRing2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandRing1/Bind_RightHandRing2/Bind_RightHandRing3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandThumb1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandThumb1/Bind_RightHandThumb2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandThumb1/Bind_RightHandThumb2/Bind_RightHandThumb3
+        weight: 1
+      - path: gun
+        weight: 1
+      - path: LOD00
+        weight: 1
+      - path: LOD00/gun_LOD0
+        weight: 1
+      - path: LOD00/soldier_LOD0
+        weight: 1
+      - path: soldier
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.3
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human:
+    - boneName: Bind_Root
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_LeftUpLeg
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_RightUpLeg
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_LeftLeg
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_RightLeg
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_LeftFoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_RightFoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_Spine1
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_LeftShoulder
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_RightShoulder
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_LeftArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_RightArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_LeftForeArm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_RightForeArm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_LeftHand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_RightHand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_LeftToeBase
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_RightToeBase
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_LeftHandThumb1
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_LeftHandThumb2
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_LeftHandMiddle1
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_LeftHandMiddle2
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_LeftHandMiddle3
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_LeftHandRing1
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_LeftHandRing2
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_LeftHandRing3
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_LeftHandPinky1
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_LeftHandPinky2
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_RightHandThumb1
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_RightHandThumb2
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_RightHandThumb3
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_RightHandMiddle1
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_RightHandMiddle2
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_RightHandMiddle3
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_RightHandRing1
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_RightHandRing2
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_RightHandRing3
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_RightHandPinky1
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_RightHandPinky2
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_Spine2
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: soldier_anims_separated_LOD0(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bind_Root
+      parentName: soldier_anims_separated_LOD0(Clone)
+      position: {x: -0.001356788, y: 1.6710775, z: -0.06358496}
+      rotation: {x: -0.0012018087, y: -0.020377168, z: 0.009026213, w: 0.9997509}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: Bind_Hips
+      parentName: Bind_Root
+      position: {x: -0, y: 0, z: 0.000000008940697}
+      rotation: {x: -0.045693368, y: 0.000000007007819, z: -9.179838e-11, w: 0.99895555}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: Bind_LeftUpLeg
+      parentName: Bind_Hips
+      position: {x: -0.14474726, y: -0.076046996, z: -0.00062459486}
+      rotation: {x: -0.09216757, y: 0.06511384, z: 0.98916733, w: 0.09387963}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: Bind_LeftLeg
+      parentName: Bind_LeftUpLeg
+      position: {x: -0, y: 0.6965203, z: 0}
+      rotation: {x: -0.16077049, y: 0.000008101478, z: -0.000001095628, w: 0.9869918}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: Bind_LeftFoot
+      parentName: Bind_LeftLeg
+      position: {x: 0.00000003576279, y: 0.7149435, z: 0}
+      rotation: {x: 0.5116475, y: 0.0043662735, z: 0.04346494, w: 0.85808426}
+      scale: {x: 0.99999994, y: 0.9999999, z: 1}
+    - name: Bind_LeftToeBase
+      parentName: Bind_LeftFoot
+      position: {x: -0, y: 0.32443315, z: 0}
+      rotation: {x: 0.3438927, y: 0.03165221, z: -0.011599679, w: 0.93840367}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: Bind_RightUpLeg
+      parentName: Bind_Hips
+      position: {x: 0.14526524, y: -0.07604714, z: -0.00022840129}
+      rotation: {x: 0.24844913, y: 0.047121387, z: 0.9611443, w: -0.110698506}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: Bind_RightLeg
+      parentName: Bind_RightUpLeg
+      position: {x: -0.00000003576279, y: 0.69649774, z: -0.00000003576279}
+      rotation: {x: -0.19791263, y: -0.000005751829, z: 0.000001020217, w: 0.98021966}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bind_RightFoot
+      parentName: Bind_RightLeg
+      position: {x: 0.00000003576279, y: 0.7150464, z: 0.000000017881394}
+      rotation: {x: 0.5462469, y: 0.052853394, z: -0.07593878, w: 0.8324987}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: Bind_RightToeBase
+      parentName: Bind_RightFoot
+      position: {x: 6.6613384e-17, y: 0.3227433, z: -9.488513e-26}
+      rotation: {x: 0.34589067, y: -0.031424593, z: 0.011591292, w: 0.9376768}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+    - name: Bind_Spine
+      parentName: Bind_Root
+      position: {x: 0.00017825514, y: 0.1368848, z: -0.012150497}
+      rotation: {x: -0.032895867, y: 0.000021422846, z: -0.00065075164, w: 0.9994586}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: Bind_Spine1
+      parentName: Bind_Spine
+      position: {x: -3.4515184e-25, y: 0.16032715, z: -8.381904e-10}
+      rotation: {x: 0.09085079, y: 0.02678854, z: -0.0024447585, w: 0.99550116}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: Bind_Spine2
+      parentName: Bind_Spine1
+      position: {x: 0.0000000044703485, y: 0.18323107, z: 2.6100898e-25}
+      rotation: {x: 6.827512e-11, y: 0.000000005224355, z: 0.0000000011813879, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: Bind_Neck
+      parentName: Bind_Spine2
+      position: {x: -0.0000000044703485, y: 0.20613486, z: 2.3423674e-25}
+      rotation: {x: 0.025019001, y: 0.0001590609, z: 0.00014496838, w: 0.999687}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: Bind_Head
+      parentName: Bind_Neck
+      position: {x: -0.000000008940697, y: 0.116690546, z: 0.040439308}
+      rotation: {x: -0.15492754, y: -0.12339173, z: 0.016900975, w: 0.98004407}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bind_LeftShoulder
+      parentName: Bind_Spine2
+      position: {x: -0.094117716, y: 0.16295543, z: -0.0042018774}
+      rotation: {x: 0.56754243, y: -0.39746034, z: 0.5734807, w: 0.43708226}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: Bind_LeftArm
+      parentName: Bind_LeftShoulder
+      position: {x: -0.000000008940697, y: 0.20727053, z: 0}
+      rotation: {x: -0.13522463, y: -0.11264288, z: 0.043440588, w: 0.9834322}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: Bind_LeftForeArm
+      parentName: Bind_LeftArm
+      position: {x: 1.332268e-16, y: 0.33446425, z: 1.3322678e-16}
+      rotation: {x: -0.014155071, y: 0.03671769, z: -0.026505088, w: 0.9988739}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: Bind_LeftHand
+      parentName: Bind_LeftForeArm
+      position: {x: -0, y: 0.40969375, z: 0}
+      rotation: {x: 0.057593137, y: -0.293994, z: 0.01775024, w: 0.9539054}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bind_LeftHandThumb1
+      parentName: Bind_LeftHand
+      position: {x: 0.041130066, y: 0.060580302, z: 0.027166987}
+      rotation: {x: 0.927152, y: -0.20754454, z: 0.14874315, w: 0.274208}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bind_LeftHandThumb2
+      parentName: Bind_LeftHandThumb1
+      position: {x: 0.0087684635, y: -0.06186215, z: 0.000000017881394}
+      rotation: {x: 0.026165232, y: 0.0010362113, z: 0.03187188, w: 0.9991489}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bind_LeftHandThumb3
+      parentName: Bind_LeftHandThumb2
+      position: {x: 0.002731991, y: -0.067536056, z: 0}
+      rotation: {x: -0.03698858, y: 1.8997107e-10, z: 0.0000000058431247, w: 0.9993157}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: Bind_LeftHandIndex1
+      parentName: Bind_LeftHand
+      position: {x: 0.06894779, y: 0.21509011, z: -0.00195508}
+      rotation: {x: 0.9533992, y: 0.14033438, z: 0.058111306, w: -0.26069018}
+      scale: {x: 1.0000001, y: 1, z: 0.99999994}
+    - name: Bind_LeftHandIndex2
+      parentName: Bind_LeftHandIndex1
+      position: {x: -0.0021537782, y: -0.05589967, z: 1.6653348e-16}
+      rotation: {x: 0.5610453, y: 0.0000000018428773, z: -0.0000000018575114, w: 0.82778513}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: Bind_LeftHandIndex3
+      parentName: Bind_LeftHandIndex2
+      position: {x: 0.0021443367, y: -0.052330043, z: 0}
+      rotation: {x: 0.3594307, y: 5.6721355e-10, z: 0.000000003453349, w: 0.9331718}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: Bind_LeftHandMiddle1
+      parentName: Bind_LeftHand
+      position: {x: 0.020742847, y: 0.21613641, z: 0.003186107}
+      rotation: {x: 0.99447423, y: -0.08079316, z: 0.0041002966, w: -0.06690793}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: Bind_LeftHandMiddle2
+      parentName: Bind_LeftHandMiddle1
+      position: {x: -0.0067886356, y: -0.056244407, z: 1.3322676e-16}
+      rotation: {x: 0.006501448, y: 0.03020652, z: -0.08743649, w: 0.9956908}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+    - name: Bind_LeftHandMiddle3
+      parentName: Bind_LeftHandMiddle2
+      position: {x: 0.0030040026, y: -0.053500846, z: -0.000000008940697}
+      rotation: {x: 0.19860448, y: 0.0000000012186592, z: 0.0000000022273605, w: 0.9800797}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: Bind_LeftHandRing1
+      parentName: Bind_LeftHand
+      position: {x: -0.03410225, y: 0.18690702, z: 0.004696226}
+      rotation: {x: 0.9828029, y: -0.089839876, z: -0.1492452, w: -0.061262637}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: Bind_LeftHandRing2
+      parentName: Bind_LeftHandRing1
+      position: {x: -0.0069168094, y: -0.048745144, z: 1.9984015e-16}
+      rotation: {x: 0.015311662, y: 0.031307682, z: -0.09103305, w: 0.9952379}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: Bind_LeftHandRing3
+      parentName: Bind_LeftHandRing2
+      position: {x: 0.0021243813, y: -0.046832517, z: -0.00000006258488}
+      rotation: {x: 0.21160541, y: -0.00000000513936, z: 0.0000000016095122, w: 0.9773552}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bind_LeftHandPinky1
+      parentName: Bind_LeftHand
+      position: {x: -0.07885323, y: 0.17810029, z: 0.034313466}
+      rotation: {x: 0.9789748, y: -0.062034793, z: -0.1778694, w: -0.078246936}
+      scale: {x: 1, y: 0.99999994, z: 0.9999999}
+    - name: Bind_LeftHandPinky2
+      parentName: Bind_LeftHandPinky1
+      position: {x: -0.0005626917, y: -0.03041103, z: -0.00000014305115}
+      rotation: {x: 0.01563897, y: -0.021409314, z: -0.051277928, w: 0.99833244}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: Bind_LeftHandPinky3
+      parentName: Bind_LeftHandPinky2
+      position: {x: 0.0022440434, y: -0.025857212, z: -2.664535e-16}
+      rotation: {x: -0.17999074, y: -0.000000010299228, z: 0.00000000368129, w: 0.9836683}
+      scale: {x: 0.99999994, y: 0.9999999, z: 1}
+    - name: Bind_RightShoulder
+      parentName: Bind_Spine2
+      position: {x: 0.09380887, y: 0.16313425, z: -0.0034478547}
+      rotation: {x: -0.555278, y: -0.43187693, z: 0.5760616, w: -0.41629526}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: Bind_RightArm
+      parentName: Bind_RightShoulder
+      position: {x: 0.00000003576279, y: 0.20650473, z: 7.8227605e-24}
+      rotation: {x: -0.117254525, y: -0.011642885, z: 0.026524836, w: 0.99267936}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: Bind_RightForeArm
+      parentName: Bind_RightArm
+      position: {x: 6.6613384e-17, y: 0.3340349, z: -0.00000014305115}
+      rotation: {x: -0.004000692, y: -0.013629667, z: 0.02882715, w: 0.99948347}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: Bind_RightHand
+      parentName: Bind_RightForeArm
+      position: {x: -0, y: 0.41020188, z: 0}
+      rotation: {x: 0.055777133, y: 0.28827786, z: -0.016823402, w: 0.9557729}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: Bind_RightHandThumb1
+      parentName: Bind_RightHand
+      position: {x: -0.04565778, y: 0.062055446, z: 0.029804708}
+      rotation: {x: 0.9374542, y: 0.3119873, z: 0.10797135, w: 0.110388435}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: Bind_RightHandThumb2
+      parentName: Bind_RightHandThumb1
+      position: {x: -0.010033179, y: -0.06531911, z: 1.3322677e-16}
+      rotation: {x: 0.0071620187, y: -0.04402255, z: -0.072131865, w: 0.9963974}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: Bind_RightHandThumb3
+      parentName: Bind_RightHandThumb2
+      position: {x: 0.0031710148, y: -0.06528172, z: 0}
+      rotation: {x: -0.0839641, y: 0.020638613, z: 0.23780373, w: 0.96745723}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: Bind_RightHandIndex1
+      parentName: Bind_RightHand
+      position: {x: -0.0721108, y: 0.22408423, z: -0.002682996}
+      rotation: {x: 0.9215382, y: -0.115143456, z: 0.03083067, w: -0.36953875}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: Bind_RightHandIndex2
+      parentName: Bind_RightHandIndex1
+      position: {x: 0.002200842, y: -0.053005386, z: 2.4980019e-17}
+      rotation: {x: 0.46615213, y: -0.000000002609461, z: 0.0000000040691943, w: 0.8847046}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bind_RightHandIndex3
+      parentName: Bind_RightHandIndex2
+      position: {x: -0.0025709153, y: -0.051461294, z: -6.661339e-17}
+      rotation: {x: 0.032635063, y: -0.000000019997122, z: -1.3067065e-10, w: 0.9994673}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: Bind_RightHandMiddle1
+      parentName: Bind_RightHand
+      position: {x: -0.024371339, y: 0.20587525, z: 0.0014028312}
+      rotation: {x: 0.990393, y: 0.08347317, z: 0.09629992, w: -0.05366803}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: Bind_RightHandMiddle2
+      parentName: Bind_RightHandMiddle1
+      position: {x: 0.0071434025, y: -0.058703188, z: -0.000000107288365}
+      rotation: {x: 0.010866282, y: -0.038347587, z: 0.073055424, w: 0.9965312}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: Bind_RightHandMiddle3
+      parentName: Bind_RightHandMiddle2
+      position: {x: -0.0015144825, y: -0.056295313, z: 0.00000007152558}
+      rotation: {x: 0.38467488, y: 0.0000000068153008, z: -0.000000010159947, w: 0.9230522}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+    - name: Bind_RightHandRing1
+      parentName: Bind_RightHand
+      position: {x: 0.03131461, y: 0.18821469, z: 0.0061287046}
+      rotation: {x: 0.97248745, y: 0.100598946, z: 0.20123392, w: -0.06043949}
+      scale: {x: 1, y: 0.99999994, z: 1.0000001}
+    - name: Bind_RightHandRing2
+      parentName: Bind_RightHandRing1
+      position: {x: 0.0066317082, y: -0.05055914, z: 0.00000007152558}
+      rotation: {x: 0.013393533, y: -0.011859238, z: 0.11028626, w: 0.9937389}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: Bind_RightHandRing3
+      parentName: Bind_RightHandRing2
+      position: {x: -0.004435015, y: -0.04654169, z: 0.00000014305115}
+      rotation: {x: 0.290216, y: 0.000000005434903, z: -0.000000004124049, w: 0.95696115}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: Bind_RightHandPinky1
+      parentName: Bind_RightHand
+      position: {x: 0.07772527, y: 0.1787455, z: 0.040294256}
+      rotation: {x: -0.98119515, y: -0.09462888, z: -0.15449016, w: 0.066590324}
+      scale: {x: 1.0000001, y: 1, z: 0.99999994}
+    - name: Bind_RightHandPinky2
+      parentName: Bind_RightHandPinky1
+      position: {x: 0.0021128654, y: -0.028801562, z: 0.00000007152558}
+      rotation: {x: 0.01776891, y: 0.006409003, z: 0.08226202, w: 0.9964317}
+      scale: {x: 1, y: 0.99999994, z: 1.0000001}
+    - name: Bind_RightHandPinky3
+      parentName: Bind_RightHandPinky2
+      position: {x: -0.0024391653, y: -0.025090653, z: 0.00000003576279}
+      rotation: {x: 0.2748671, y: 0.0000000038803862, z: -0.000000013118482, w: 0.9614822}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: gun
+      parentName: soldier_anims_separated_LOD0(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LOD00
+      parentName: soldier_anims_separated_LOD0(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gun_LOD0
+      parentName: LOD00
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier_LOD0
+      parentName: LOD00
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier
+      parentName: soldier_anims_separated_LOD0(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 1
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,222 @@
+fileFormatVersion: 2
+guid: ee3af8f79b9c599449c753a56e19222a
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: arm_controller_01
+    100002: arm_controller_02
+    100004: body
+    100006: body_mesh
+    100008: bolt
+    100010: bolt_mesh
+    100012: bullets
+    100014: CZ
+    100016: //RootNode
+    100018: Eotech
+    100020: Hands
+    100022: l_armtwist_1
+    100024: l_armtwist_2
+    100026: l_armtwist_3
+    100028: l_armtwist_4
+    100030: l_forearm
+    100032: l_index_low
+    100034: l_index_mid
+    100036: l_index_tip
+    100038: l_middle_low
+    100040: l_middle_mid
+    100042: l_middle_tip
+    100044: l_pinky_low
+    100046: l_pinky_mid
+    100048: l_pinky_tip
+    100050: l_ring_low
+    100052: l_ring_mid
+    100054: l_ring_tip
+    100056: l_thumb_low
+    100058: l_thumb_mid
+    100060: l_thumb_tip
+    100062: l_upperarm
+    100064: l_wrist
+    100066: Mag
+    100068: mag
+    100070: mag.001
+    100072: mag_lock
+    100074: mag_lock_mesh
+    100076: mag_mesh
+    100078: muzzle
+    100080: r_armtwist_1
+    100082: r_armtwist_2
+    100084: r_armtwist_3
+    100086: r_armtwist_4
+    100088: r_forearm
+    100090: r_index_low
+    100092: r_index_mid
+    100094: r_index_tip
+    100096: r_middle_low
+    100098: r_middle_mid
+    100100: r_middle_tip
+    100102: r_pinky_low
+    100104: r_pinky_mid
+    100106: r_pinky_tip
+    100108: r_ring_low
+    100110: r_ring_mid
+    100112: r_ring_tip
+    100114: r_thumb_low
+    100116: r_thumb_mid
+    100118: r_thumb_tip
+    100120: r_upperarm
+    100122: r_wrist
+    100124: safety
+    100126: safety_mesh
+    100128: stock
+    100130: stock_mesh
+    100132: trigger
+    100134: trigger_mesh
+    400000: arm_controller_01
+    400002: arm_controller_02
+    400004: body
+    400006: body_mesh
+    400008: bolt
+    400010: bolt_mesh
+    400012: bullets
+    400014: CZ
+    400016: //RootNode
+    400018: Eotech
+    400020: Hands
+    400022: l_armtwist_1
+    400024: l_armtwist_2
+    400026: l_armtwist_3
+    400028: l_armtwist_4
+    400030: l_forearm
+    400032: l_index_low
+    400034: l_index_mid
+    400036: l_index_tip
+    400038: l_middle_low
+    400040: l_middle_mid
+    400042: l_middle_tip
+    400044: l_pinky_low
+    400046: l_pinky_mid
+    400048: l_pinky_tip
+    400050: l_ring_low
+    400052: l_ring_mid
+    400054: l_ring_tip
+    400056: l_thumb_low
+    400058: l_thumb_mid
+    400060: l_thumb_tip
+    400062: l_upperarm
+    400064: l_wrist
+    400066: Mag
+    400068: mag
+    400070: mag.001
+    400072: mag_lock
+    400074: mag_lock_mesh
+    400076: mag_mesh
+    400078: muzzle
+    400080: r_armtwist_1
+    400082: r_armtwist_2
+    400084: r_armtwist_3
+    400086: r_armtwist_4
+    400088: r_forearm
+    400090: r_index_low
+    400092: r_index_mid
+    400094: r_index_tip
+    400096: r_middle_low
+    400098: r_middle_mid
+    400100: r_middle_tip
+    400102: r_pinky_low
+    400104: r_pinky_mid
+    400106: r_pinky_tip
+    400108: r_ring_low
+    400110: r_ring_mid
+    400112: r_ring_tip
+    400114: r_thumb_low
+    400116: r_thumb_mid
+    400118: r_thumb_tip
+    400120: r_upperarm
+    400122: r_wrist
+    400124: safety
+    400126: safety_mesh
+    400128: stock
+    400130: stock_mesh
+    400132: trigger
+    400134: trigger_mesh
+    4300000: Hands
+    4300002: CZ
+    4300004: Mag
+    4300006: Eotech
+    7400000: Take 001
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: CZ
+    13700002: Eotech
+    13700004: Hands
+    13700006: Mag
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
