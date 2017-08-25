@@ -6,7 +6,7 @@ using UnityEngine;
 public class PlayerInteraction : MonoBehaviour
 {
     [SerializeField] float interactionMinDistance = 2.5F;
-    [SerializeField] float HighlightedLineWidth = 0.001F;
+    [SerializeField][Range(0, 0.002F)] float HighlightedLineWidth = 0.001F;
 
     PlayerInventory playerInventory;
 

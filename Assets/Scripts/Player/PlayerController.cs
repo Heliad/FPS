@@ -13,13 +13,13 @@ public class PlayerController : MonoBehaviour
 	[SerializeField] float jumpSpeed = 8;
 
     [Header("Camera FOV")]
-    [SerializeField] float cameraFov = 54;
-    [SerializeField] float aimCameraFov = 30;
+    [SerializeField] [Range(0, 180)] float weaponCameraFov = 54;
+    [SerializeField] [Range(0, 180)] float aimCameraFov = 30;
 
     [Header("Character Controller")]
     [SerializeField] float radius = 0.5F;
     [SerializeField] float height = 2;
-    [SerializeField] float slopeLimit = 45;
+    [SerializeField] [Range(0, 180)] float slopeLimit = 45;
     
     [NonSerialized] public bool isReloading = false;
     [NonSerialized] public bool isAiming = false;
@@ -113,7 +113,7 @@ public class PlayerController : MonoBehaviour
                 {
                     curSetSpeed = playerSpeed;
                 }
-                weaponCamera.fieldOfView = Mathf.Lerp(weaponCamera.fieldOfView, cameraFov, 25F * Time.deltaTime);
+                weaponCamera.fieldOfView = Mathf.Lerp(weaponCamera.fieldOfView, weaponCameraFov, 25F * Time.deltaTime);
             }
 
             if (Input.GetKey(KeyCode.LeftShift) && !isAiming && !isReloading)
