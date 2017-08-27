@@ -10,6 +10,7 @@ public class InteractableObject : MonoBehaviour
     Shader outline;
     List<Material> material;
     float outlineWidth = 0;
+    Color color = Color.white;
 
     public InventoryObjectType type { get { return objectType; } } 
 
@@ -35,11 +36,17 @@ public class InteractableObject : MonoBehaviour
         foreach (Material item in material)
         {
             item.SetFloat("_Outline", outlineWidth);
+            item.SetColor("_OutlineColor", color);
         }
     }
 
     public void SetShaderFloat(float f)
     {
         outlineWidth = f;
+    }
+
+    public void SetShaderColor(Color c)
+    {
+        color = c;
     }
 }

@@ -83,7 +83,7 @@ public class PlayerInventory : MonoBehaviour
             }
             attachedWeapons.Add(obj.GetComponent<PlayerWeaponController>());
         }
-        else if (obj.GetComponent<InteractableObject>().type == InventoryObjectType.Object)
+        else if (obj.GetComponent<InteractableObject>().type == InventoryObjectType.Object || obj.GetComponent<InteractableObject>().type == InventoryObjectType.MissionObject)
         {   
             if (!objects.Contains(obj))
                 objects.Add(obj);

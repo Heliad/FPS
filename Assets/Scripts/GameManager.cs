@@ -86,11 +86,14 @@ public class GameManager : MonoBehaviour
         }
         else
         {
-            if (playerInventory.HasTypeObject(InventoryObjectType.MissionObject) && (player.transform.position - missionWaypoint.position).magnitude < 3)
+            if ((player.transform.position - missionWaypoint.position).magnitude < 3)
             {
-                background.SetActive(true);
-                WinMenu.SetActive(true);
-                Time.timeScale = 0;
+                if (playerInventory.HasTypeObject(InventoryObjectType.MissionObject))
+                {
+                    background.SetActive(true);
+                    WinMenu.SetActive(true);
+                    Time.timeScale = 0;
+                }
             }
         }
 	}

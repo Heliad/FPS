@@ -292,7 +292,7 @@ public class PlayerWeaponController : MonoBehaviour, IWeaponControlable
 
     void Update () 
 	{
-        Debug.Log(transform.localPosition);
+        //Debug.Log(transform.localPosition);
 
         if (Time.timeScale == 0 || weaponAttachment == null) return;
 
